@@ -2,7 +2,7 @@
     background-color: #E28625;
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 5rem;
     justify-content: center;
     align-items: center;
     border-radius: 8px;
@@ -15,7 +15,13 @@ button {
     width: 145px;
     height: 50px;
     font-weight: 600;
-    border: hidden;
+    border: none;
+}
+button:hover {
+    cursor: pointer;
+    background-color: #E28625;
+    color: #f2f2f2;
+    border: 2px #f2f2f2 solid;
 }
 .text-box {
     width: 215px;
