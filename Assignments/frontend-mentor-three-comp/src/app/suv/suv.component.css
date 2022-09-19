@@ -14,7 +14,12 @@ button {
     font-family: 'Lexend Deca', sans-serif;
     width: 145px;
     height: 50px;
-    font-weight: 200;
+    font-weight: 600;
+    border: hidden;
+}
+.text-box {
+    width: 215px;
+    height: 125px;
 }
 @media (max-width: 400px) {
     #suv-sec {

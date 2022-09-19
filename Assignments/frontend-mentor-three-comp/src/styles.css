@@ -1,8 +1,11 @@
 p {
     color: #ffffff;
     font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
 }
 h2 {
     color: #ffffff;
     font-family: 'Big Shoulders Display', cursive;
+    font-size: 40px;
 }
