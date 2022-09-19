@@ -1,1 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+p {
+    color: #ffffff;
+    font-family: 'Lexend Deca', sans-serif;
+}
+h2 {
+    color: #ffffff;
+    font-family: 'Big Shoulders Display', cursive;
+}
