@@ -1,8 +1,12 @@
-p {
-    color: #ffffff;
-    font-family: 'Lexend Deca', sans-serif;
+@media (max-width: 400px) {
+    section {
+        display: flex;
+        flex-direction: column;
+    }
 }
-h2 {
-    color: #ffffff;
-    font-family: 'Big Shoulders Display', cursive;
+@media (min-width: 401px) {
+    section {
+        display: flex;
+        flex-direction: row;
+    }
 }

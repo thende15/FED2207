@@ -1,8 +1,30 @@
 #lux-sec {
     background-color: #004140;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
 }
 button {
     background-color: #f2f2f2;
     border-radius: 25px;
-    
+    color: #004140;
+    font-family: 'Lexend Deca', sans-serif;
+    width: 145px;
+    height: 50px;
+    font-weight: 200;
+}
+@media (max-width: 400px) {
+    #lux-sec {
+        width: 100vw;
+        height: 80vh;
+    }
+}
+@media (min-width: 401px) {
+    #lux-sec {
+        width: 33vw;
+        height: 100vh;
+    }
 }
