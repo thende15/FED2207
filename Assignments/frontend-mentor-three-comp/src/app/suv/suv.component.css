@@ -2,7 +2,6 @@
     background-color: #006971;
     display: flex;
     flex-direction: column;
-    gap: 5rem;
     justify-content: center;
     align-items: center;
     border-radius: 8px;
@@ -32,11 +31,19 @@ button:hover {
     #suv-sec {
         width: 100vw;
         height: 80vh;
+        gap: 2rem;
+    }
+    .button {
+        margin-right: 20vw;
     }
 }
 @media (min-width: 401px) {
     #suv-sec {
         width: 33vw;
         height: 100vh;
+        gap: 5rem;
+    }
+    .button {
+        margin-right: 5vw;
     }
 }
