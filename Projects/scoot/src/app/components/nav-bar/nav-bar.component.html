@@ -1,1 +1,19 @@
-<p>nav-bar works!</p>
+<div class="navContainer grid-container">
+
+    <button class="hamburger grid-item displayBlock" id="hamburger" (click)="toggleNavModal()"></button>
+    <button class="closeButton grid-item displayNone" id="closeButton" (click)="toggleNavModal()"></button>
+    <a class="navLogo grid-item" routerLink="/home">
+      <img src="../../../assets/logo.svg" alt="" />
+    </a>
+  </div>
+  <section class="navModal displayNone" id="navModal">
+      <nav class="navItems">
+        <a routerLink="/about" class="navItem">About</a>
+        <a routerLink="/locations" class="navItem">Location</a>
+        <a routerLink="/careers" class="navItem">Careers</a>
+      </nav>
+      <button class="modalButton">Get Scootin</button>
+  
+  
+  </section>
+  <div class="backDrop" id="backDrop" (click)="toggleNavModal()" class="displayNone"></div>
