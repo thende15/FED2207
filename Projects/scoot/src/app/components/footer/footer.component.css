@@ -1,0 +1,35 @@
+.bottom-nav {
+    background-color: #333A44;
+}
+#bottom-logo {
+    filter: brightness(1000);
+}
+li {
+    font-family: 'Space Mono';
+    color: #939CAA;
+    list-style: none;
+}
+@media (max-width: 420px) {
+    #apple {
+        width: 113.57px;
+        height: 40px;
+    }
+    #google {
+        width: 130px;
+        height: 40px;
+    }
+    .bottom-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    #bottom-logo {
+        width: 108px;
+        height: 29px;
+    }
+    #socials {
+        display: flex;
+        gap: 1rem;
+    }
+}
