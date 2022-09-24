@@ -37,7 +37,9 @@ li {
     }
     .sign-up {
     background-image: url(../../../assets/patterns/white-circles.svg);
+    background-size: 1153px 347px;
     background-color: #495567;
+    background-repeat: no-repeat;
     height: 375px;
     }
 }
