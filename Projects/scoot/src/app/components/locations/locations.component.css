@@ -1,0 +1,17 @@
+@media (max-width: 420px) {
+    p {
+        font-family: 'Lexend Deca';
+        color: #939CAA;
+        text-align: center;
+    }
+    h3 {
+        font-family: 'Space Mono';
+        color: #495567;
+        text-align: center;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

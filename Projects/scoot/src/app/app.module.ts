@@ -11,6 +11,8 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MapComponent } from './components/map/map.component';
+import { ImageCardComponent } from './components/image-card/image-card.component';
+import { TextComponentComponent } from './components/text-component/text-component.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { MapComponent } from './components/map/map.component';
     LocationsComponent,
     NavBarComponent,
     FooterComponent,
-    MapComponent
+    MapComponent,
+    ImageCardComponent,
+    TextComponentComponent
   ],
   imports: [
     BrowserModule,
