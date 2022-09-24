@@ -1,6 +1,9 @@
 .bottom-nav {
     background-color: #333A44;
 }
+/* section {
+    background-color: #333A44;
+} */
 #bottom-logo {
     filter: brightness(1000);
 }
@@ -31,5 +34,10 @@ li {
     #socials {
         display: flex;
         gap: 1rem;
+    }
+    .sign-up {
+    background-image: url(../../../assets/patterns/white-circles.svg);
+    background-color: #495567;
+    height: 375px;
     }
 }
