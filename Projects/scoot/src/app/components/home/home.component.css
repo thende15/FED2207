@@ -52,18 +52,12 @@ h3 {
         margin-top: 72px;
         margin-bottom: 120px;
     }
-    #mid-card {
+    #text-field {
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 4rem;
-    }
-    #low-card {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 145px;
-        margin-bottom: 120px;
+        gap: 1rem;
+        margin-top: 120px;
     }
     #svg {
         width: 735px;
@@ -96,12 +90,6 @@ h3 {
         width: 240px;
         border-radius: 150px;
     }
-    .num-circle {
-        height: 96px;
-        width: 96px;
-        position: absolute;
-        top: 196px;
-    }
     .big-card {
         display: flex;
         flex-direction: column;
@@ -111,7 +99,6 @@ h3 {
         width: 311px;
     }
     h4 {
-        margin-top: 64px;
         font-family: 'Space Mono';
         font-size: 24px;
     }
@@ -138,5 +125,12 @@ h3 {
     .position-button {
         width: 247px;
         height: 53px;
+    }
+    .text-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 311px;
+        gap: 2rem;
     }
 }
