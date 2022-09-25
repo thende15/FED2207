@@ -27,4 +27,21 @@ export class DataService {
       content: "We support every community we serve. All workers are paid a living wage based on their location and are Scoot employees.",
     }
   ]
+  textCard = [
+    {
+      image: "",
+      title: "",
+      content: ""
+    },
+    {
+      image: "",
+      title: "",
+      content: ""
+    },
+    {
+      image: "",
+      title: "",
+      content: ""
+    }
+  ]
 }
