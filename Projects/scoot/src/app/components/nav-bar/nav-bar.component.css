@@ -16,6 +16,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
+    z-index: 4;
 }
 .navLogo{
     justify-self: center;
