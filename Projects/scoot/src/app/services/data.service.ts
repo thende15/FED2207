@@ -44,4 +44,30 @@ export class DataService {
       content: "Scan the QR code and the bike will unlock. Retract the cable lock, put on a helmet, and you’re off! Always lock bikes away from walkways and accessibility ramps."
     }
   ]
+  jobs = [
+    {
+      position: "General Manager",
+      location: "Jakarta, Indonesia"
+    },
+    {
+      position: "UI/UX Designer",
+      location: "Yokohama, Japan"
+    },
+    {
+      position: "Blog Content Copywriter",
+      location: "New York, United States"
+    },
+    {
+      position: "Graphic Designer",
+      location: "New York, United States"
+    },
+    {
+      position: "Fleet Supervisor",
+      location: "Jakarta, Indonesia"
+    },
+    {
+      position: "UX Analyst",
+      location: "London, United Kingdom"
+    }
+  ]
 }

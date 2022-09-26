@@ -13,6 +13,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MapComponent } from './components/map/map.component';
 import { ImageCardComponent } from './components/image-card/image-card.component';
 import { TextComponentComponent } from './components/text-component/text-component.component';
+import { JobsComponent } from './components/jobs/jobs.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { TextComponentComponent } from './components/text-component/text-compone
     FooterComponent,
     MapComponent,
     ImageCardComponent,
-    TextComponentComponent
+    TextComponentComponent,
+    JobsComponent
   ],
   imports: [
     BrowserModule,
