@@ -14,7 +14,7 @@ export class ImageCardComponent implements OnInit {
 
   ngOnInit(): void {
     this.imageCard = this.data.imageCard
-    console.log(this.imageCard)
+    
   }
   
   

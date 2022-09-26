@@ -1,0 +1,136 @@
+p {
+    font-family: 'Lexend Deca';
+    color: #939CAA;
+    text-align: center;
+    font-size: 15px;
+}
+h3 {
+    font-family: 'Space Mono';
+    color: #495567;
+    text-align: center;
+}
+@media (max-width: 420px) {
+    #desk-banner {
+        display: none;
+    }
+    header {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 64px;
+    }
+    .banner {
+        width: 311px;
+    }
+    #mobile-banner {
+        position:absolute;
+        z-index: -1;
+    }
+    h2 {
+        z-index: 3;
+        font-family: 'Space Mono';
+        color: #ffffff;
+        font-size: 40px;
+        text-align: center;
+    }
+    .section-title {
+        color: #495567;
+    }
+    #join-us {
+        height: 311px;
+        width: 311px;
+        border-radius: 150px;
+    }
+    .head-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        gap: 4rem;
+        margin-top: 72px;
+        margin-bottom: 120px;
+    }
+    #text-field {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        margin-top: 120px;
+    }
+    #svg {
+        width: 735px;
+        height: 138px;
+        position: absolute;
+        overflow: hidden;
+        left: 30px;
+        bottom: 390px;
+    }
+    #miss-request {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        width: 311px;
+    }
+    button {
+        background-color: #FCB72B;
+        font-family: 'Space Mono';
+        color: #ffffff;
+        height: 53px;
+        width: 192px;
+        font-size: 15px;
+        align-self: center;
+        margin-bottom: 24px;
+        border: none;
+    }
+    .card-img {
+        height: 240px;
+        width: 240px;
+        border-radius: 150px;
+    }
+    .big-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        gap: 1rem;
+        width: 311px;
+    }
+    h4 {
+        font-family: 'Space Mono';
+        font-size: 24px;
+    }
+    .position-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #F2F5F9;
+        width: 311px;
+        height: 190px;
+        gap: 1rem;
+    }
+    h5 {
+        text-align: center;
+        font-family: 'Space Mono';
+        font-size: 24px;
+    }
+    .position-loc {
+        font-size: 15px;
+        font-family: 'Lexend Deca';
+        color: #495567;
+    }
+    .position-button {
+        width: 247px;
+        height: 53px;
+    }
+    .text-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 311px;
+        gap: 2rem;
+    }
+}

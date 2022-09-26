@@ -1,1 +1,5 @@
-<p>text-component works!</p>
+<article class="text-box" *ngFor="let card of textCard">
+    <img src={{card.image}} alt="">
+    <h4>{{card.title}}</h4>
+    <p>{{card.content}}</p>
+</article>
