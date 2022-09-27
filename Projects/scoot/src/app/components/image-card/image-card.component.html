@@ -1,5 +1,5 @@
-<section id="mid-card" *ngFor="let card of imageCard">
-    <article class="big-card">
+<section id="mid-card">
+    <article class="big-card" *ngFor="let card of imageCard">
         <img src={{card.image}} alt="" class="card-img">
         <img src={{card.numbImage}} alt="" class="num-circle">
         <h4>{{card.caption}}</h4>

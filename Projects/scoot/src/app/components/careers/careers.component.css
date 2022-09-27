@@ -13,6 +13,12 @@ h3 {
     #desk-banner {
         display: none;
     }
+    #circles {
+        display: none;
+    }
+    #filler {
+        display: none;
+    }
     header {
         position: relative;
         display: flex;
@@ -32,6 +38,8 @@ h3 {
     }
     .section-title {
         color: #495567;
+        text-align: center;
+        margin-bottom: 64px;
     }
     #join-us {
         height: 311px;
@@ -46,6 +54,7 @@ h3 {
         gap: 4rem;
         margin-top: 72px;
         margin-bottom: 120px;
+        overflow-x: hidden;
     }
     #mid-card {
         display: flex;
@@ -64,7 +73,7 @@ h3 {
         width: 735px;
         height: 138px;
         position: absolute;
-        overflow: hidden;
+        overflow-x: hidden;
         left: 30px;
         bottom: 390px;
     }
@@ -86,52 +95,115 @@ h3 {
         margin-bottom: 24px;
         border: none;
     }
-    .card-img {
-        height: 240px;
-        width: 240px;
-        border-radius: 150px;
-    }
-    .num-circle {
-        height: 96px;
-        width: 96px;
-        position: absolute;
-        top: 196px;
-    }
-    .big-card {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        position: relative;
-        gap: 1rem;
-        width: 311px;
-    }
     h4 {
         margin-top: 64px;
         font-family: 'Space Mono';
         font-size: 24px;
     }
-    .position-cards {
+}
+/* Beeg */
+@media (min-width: 421px) {
+    #mobile-banner {
+        display: none;
+    }
+    header {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* margin-top: 64px; */
+        height: 200px;
+        overflow: hidden;
+    }
+    #desk-banner {
+        position:absolute;
+        z-index: -1;
+    }
+    #circles {
+        position: relative;
+        left: 30px;
+    }
+    h2 {
+        z-index: 3;
+        font-family: 'Space Mono';
+        color: #ffffff;
+        font-size: 40px;
+        padding-left: 3rem;
+    }
+    .section-title {
+        color: #495567;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    #join-us {
+        height: 445px;
+        width: 445px;
+        border-radius: 225px;
+        margin-right: 165px;
+    }
+    #filler {
+        height: 445px;
+        width: 445px;
+        position: absolute;
+        right: -20rem;
+    }
+    #head-card {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        gap: 4rem;
+        margin-top: 72px;
+        margin-bottom: 120px;
+        overflow-x: hidden;
+    }
+    #mid-card {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 4rem;
+    }
+    #low-card {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
-        background-color: #F2F5F9;
-        width: 311px;
-        height: 190px;
-        gap: 1rem;
+        margin-top: 145px;
+        margin-bottom: 120px;
     }
-    h5 {
-        text-align: center;
+    #svg {
+        width: 735px;
+        height: 138px;
+        position: absolute;
+        /* overflow-x: hidden; */
+        left: 430px;
+        bottom: 0px;
+    }
+    #miss-request {
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        gap: 1rem;
+        /* width: 311px; */
+        margin-left: 2rem;
+    }
+    .mission-text {
+        text-align: left;
+    }
+    button {
+        background-color: #FCB72B;
+        font-family: 'Space Mono';
+        color: #ffffff;
+        height: 53px;
+        width: 192px;
+        font-size: 15px;
+        margin-bottom: 24px;
+        border: none;
+    }
+    h4 {
+        margin-top: 64px;
         font-family: 'Space Mono';
         font-size: 24px;
-    }
-    .position-loc {
-        font-size: 15px;
-        font-family: 'Lexend Deca';
-        color: #495567;
-    }
-    .position-button {
-        width: 247px;
-        height: 53px;
     }
 }
