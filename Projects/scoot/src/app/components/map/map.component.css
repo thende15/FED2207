@@ -10,7 +10,10 @@ h3 {
     div {
         width: 311px;
         height: 72px;
-        background-color: #FCB72B 15%;
+        background: rgba(252, 183, 43, 0.15);
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     section {
         display: flex;

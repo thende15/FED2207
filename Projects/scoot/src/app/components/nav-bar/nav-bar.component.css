@@ -10,39 +10,12 @@
     background-color: rgb(0,0,0); 
     background-color: rgba(0,0,0,0.4);
 } */
-.navContainer{
-    background-color: #FFF;
-    height: 64px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
-    z-index: 4;
-}
-.navLogo{
-    justify-self: center;
-}
-.displayNone {
-    display: none;
-}
 
-.displayFlex {
-    display: flex;
-}
-.displayBlock {
-    display: block;
-}
-
-.backDrop{
-    position: fixed;
-
-    height: 100vh;
-    width: 100vw;
-    background-color: hwb(0 0% 100% / 0.937);
-    z-index: -5;
-}
 
 @media only screen and (max-width: 767px) {
-
+    #desk-head {
+        display: none;
+    }
     .navContainer{
         position: relative;
         top:0;
@@ -59,6 +32,7 @@
         width: 70vw;
         flex-direction: column;
         justify-content: space-between;
+        z-index: 10;
         /* From w3schools*/
         /* display: none; 
         position: fixed; 
@@ -99,6 +73,9 @@
         width: 192px;
         align-self: center;
         margin-bottom: 24px;
+        color: #ffffff;
+        border: none;
+        font-family: 'Space Mono';
     }
     img {
         display: block;
@@ -120,5 +97,75 @@
     }
     .grid-container .closeButton {
         margin-left: 33px;
+    }
+    .navContainer{
+        background-color: #FFF;
+        height: 64px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        z-index: 4;
+    }
+    .navLogo{
+        justify-self: center;
+    }
+    .displayNone {
+        display: none;
+    }
+    
+    .displayFlex {
+        display: flex;
+    }
+    .displayBlock {
+        display: block;
+    }
+    
+    .backDrop{
+        position: fixed;
+    
+        height: 100vh;
+        width: 100vw;
+        background-color: hwb(0 0% 100% / 0.937);
+        z-index: -5;
+    }
+  }
+  @media (min-width: 421px) {
+    #mobile-head {
+        display: none;
+    }
+    header {
+        height: 96px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .modalButton{
+        background-color: #FCB72B;
+        height: 53px;
+        width: 192px;
+        align-self: center;
+        color: #ffffff;
+        border: none;
+        font-family: 'Space Mono';
+    }
+    .navItems {
+        width: 250px;
+        height: 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position:relative;
+        right: 150px;
+    }
+    .navItem {
+        font-family: 'Space Mono', monospace;
+        text-decoration: none;
+        color: #939CAA;
+        font-size: 15px;
+    }
+    .navLogo{
+        justify-self: center;
+        padding-bottom: 10px;
     }
   }

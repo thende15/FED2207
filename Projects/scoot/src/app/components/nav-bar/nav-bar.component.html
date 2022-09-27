@@ -1,4 +1,5 @@
-
+<!-- New plan: keep all this and associated CSS. Make ngIf  -->
+<section id="mobile-head">
 <div class="navContainer grid-container">
   <button class="hamburger grid-item displayBlock" id="hamburger" (click)="toggleNavModal()"></button>
   <button class="closeButton grid-item displayNone" id="closeButton" (click)="toggleNavModal()"></button>
@@ -17,3 +18,17 @@
 </section>
 <div class="backDrop" id="backDrop" (click)="toggleNavModal()" class="displayNone"></div>
 </header>
+</section>
+<section id="desk-head">
+  <header>
+    <a class="navLogo grid-item" routerLink="/home">
+      <img src="../../../assets/logo.svg" alt="" />
+    </a>
+    <nav class="navItems">
+      <a routerLink="/about" class="navItem">About</a>
+      <a routerLink="/locations" class="navItem">Location</a>
+      <a routerLink="/careers" class="navItem">Careers</a>
+    </nav>
+    <button class="modalButton">Get Scootin</button>
+  </header>
+</section>
