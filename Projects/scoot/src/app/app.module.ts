@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { CdkAccordionModule } from '@angular/cdk/accordion';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -34,7 +35,8 @@ import { AccordionComponent } from './components/about/accordion/accordion.compo
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule, 
+    CdkAccordionModule
   ],
   providers: [],
   bootstrap: [AppComponent]
