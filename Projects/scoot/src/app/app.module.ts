@@ -14,6 +14,7 @@ import { MapComponent } from './components/map/map.component';
 import { ImageCardComponent } from './components/image-card/image-card.component';
 import { TextComponentComponent } from './components/text-component/text-component.component';
 import { JobsComponent } from './components/jobs/jobs.component';
+import { AccordionComponent } from './components/about/accordion/accordion.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { JobsComponent } from './components/jobs/jobs.component';
     MapComponent,
     ImageCardComponent,
     TextComponentComponent,
-    JobsComponent
+    JobsComponent,
+    AccordionComponent
   ],
   imports: [
     BrowserModule,
