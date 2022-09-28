@@ -152,7 +152,10 @@ h3 {
         width: 247px;
         height: 53px;
     }
-    
+    div {
+        display: flex;
+        justify-content: center;
+    }
 }
 /* Beeg */
 @media (min-width: 421px) {
