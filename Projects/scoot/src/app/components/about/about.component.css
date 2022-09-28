@@ -13,6 +13,12 @@ h3 {
     #desk-banner {
         display: none;
     }
+    #filler {
+        display: none;
+    }
+    #filler2 {
+        display: none;
+    }
     header {
         position: relative;
         display: flex;
@@ -38,7 +44,22 @@ h3 {
         width: 311px;
         border-radius: 150px;
     }
-    #head-card {
+    #image2 {
+        height: 311px;
+        width: 311px;
+        border-radius: 150px;
+    }
+    #first {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        gap: 4rem;
+        margin-top: 72px;
+        margin-bottom: 120px;
+        overflow-x: hidden;
+    }
+    #second {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -67,6 +88,14 @@ h3 {
         overflow: hidden;
         left: 30px;
         bottom: 390px;
+    }
+    #svg2 {
+        width: 500px;
+        height: 138px;
+        position: absolute;
+        /* overflow-x: hidden; */
+        left: -130px;
+        bottom: 300px;
     }
     #miss-request {
         display: flex;
@@ -124,4 +153,127 @@ h3 {
         height: 53px;
     }
     
+}
+/* Beeg */
+@media (min-width: 421px) {
+    #mobile-banner {
+        display: none;
+    }
+    header {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* margin-top: 64px; */
+        height: 200px;
+        overflow: hidden;
+    }
+    #desk-banner {
+        position:absolute;
+        z-index: -1;
+    }
+    #circles {
+        position: relative;
+        left: 30px;
+    }
+    h2 {
+        z-index: 3;
+        font-family: 'Space Mono';
+        color: #ffffff;
+        font-size: 40px;
+        padding-left: 3rem;
+    }
+    .section-title {
+        color: #495567;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    #join-us {
+        height: 445px;
+        width: 445px;
+        border-radius: 225px;
+        margin-right: 165px;
+    }
+    #image2 {
+        height: 445px;
+        width: 445px;
+        border-radius: 225px;
+        margin-left: 165px;
+    }
+    #filler {
+        height: 445px;
+        width: 445px;
+        position: absolute;
+        right: -20rem;
+    }
+    #filler2 {
+        height: 445px;
+        width: 445px;
+        position: absolute;
+        left: -20rem;
+    }
+    #first {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        gap: 4rem;
+        margin-top: 72px;
+        margin-bottom: 120px;
+        overflow-x: hidden;
+    }
+    #second {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        gap: 4rem;
+        margin-top: 72px;
+        margin-bottom: 120px;
+        overflow-x: hidden;
+    }
+    #svg {
+        width: 735px;
+        height: 138px;
+        position: absolute;
+        /* overflow-x: hidden; */
+        left: 430px;
+        bottom: 30px;
+    }
+    #svg2 {
+        width: 500px;
+        height: 138px;
+        position: absolute;
+        /* overflow-x: hidden; */
+        left: -130px;
+        bottom: 300px;
+    }
+    #miss-request {
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        gap: 1rem;
+        /* width: 311px; */
+        margin-left: 2rem;
+    }
+    .mission-text {
+        text-align: left;
+    }
+    button {
+        background-color: #FCB72B;
+        font-family: 'Space Mono';
+        color: #ffffff;
+        height: 53px;
+        width: 192px;
+        font-size: 15px;
+        margin-bottom: 24px;
+        border: none;
+    }
+    h4 {
+        margin-top: 64px;
+        font-family: 'Space Mono';
+        font-size: 24px;
+    }
 }
