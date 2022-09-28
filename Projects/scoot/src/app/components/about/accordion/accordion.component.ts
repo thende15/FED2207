@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { CdkAccordionModule } from '@angular/cdk/accordion'
+
 
 @Component({
   selector: 'app-accordion',
