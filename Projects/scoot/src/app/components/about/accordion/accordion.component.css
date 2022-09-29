@@ -87,6 +87,7 @@ h4 {
       .accordion-item-description {
         font-size: 0.85em;
         color: #999;
+        transform: rotate(180deg);
       }
       
       .accordion-item-header,

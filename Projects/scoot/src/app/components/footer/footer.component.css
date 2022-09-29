@@ -71,7 +71,7 @@ li {
         position: relative;
     }
     #background-img {
-        filter: invert(62%) sepia(33%) saturate(173%) hue-rotate(175deg) brightness(87%) contrast(80%);
+        opacity: 0.1;
         position: absolute;
         height: 327px;
         width: 1153px;
@@ -140,7 +140,8 @@ li {
             position: relative;
         }
         #background-img {
-            filter: invert(62%) sepia(33%) saturate(173%) hue-rotate(175deg) brightness(87%) contrast(80%);
+            /* filter: invert(62%) sepia(33%) saturate(173%) hue-rotate(175deg) brightness(87%) contrast(80%); */
+            opacity: 0.1;
             position: absolute;
             height: 327px;
             width: 1153px;

@@ -7,6 +7,10 @@ h3 {
     #desk-map {
         display: none;
     }
+    #mobile-map {
+        width: 311px;
+        margin-top: 72px;
+    }
     div {
         width: 311px;
         height: 72px;
@@ -26,5 +30,27 @@ h3 {
         justify-content: center;
         align-items: center;
         gap: 16px;
+        margin-top: 40px;
+    }
+}
+@media (min-width: 421px) {
+    #mobile-map {
+        display: none;
+    }
+    div {
+        width: 311px;
+        height: 72px;
+        background: rgba(252, 183, 43, 0.15);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    section {
+        display: flex;
+        justify-content: center;
+        margin-top: 72px;
+    }
+    .cities {
+        display: none;
     }
 }
