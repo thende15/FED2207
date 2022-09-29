@@ -11,11 +11,7 @@
       [attr.aria-controls]="'accordion-body-'">
       <div class="accordion-item-header" (click)="accordionItem.toggle()">
         <h4>{{ item.title }}</h4>
-        <span class="accordion-item-description">
-          {{ accordionItem.expanded ? '' : '' }}
-          <img src="../../../../assets/icons/chevron.svg" alt="">
-        </span>
-        <!-- ../../../../assets/icons/chevron.svg -->
+        <img [ngClass]="accordionItem.expanded ? 'flipped' : 'chevron' " src="../../../../assets/icons/chevron.svg" alt="">
       </div>
       <div
         class="accordion-item-body"
@@ -42,10 +38,7 @@
       [attr.aria-controls]="'accordion-body-' + index">
       <div class="accordion-item-header" (click)="accordionItem.toggle()">
         <h4>{{ item.title }}</h4>
-        <span class="accordion-item-description">
-          <!-- {{ accordionItem.expanded ? 'close' : 'open' }} -->
-          <img src="../../../../assets/icons/chevron.svg" alt="">
-        </span>
+        <img [ngClass]="accordionItem.expanded ? 'flipped' : 'chevron' " src="../../../../assets/icons/chevron.svg" alt="">
         <!-- ../../../../assets/icons/chevron.svg -->
       </div>
       <div
