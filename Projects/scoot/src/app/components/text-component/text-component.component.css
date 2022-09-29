@@ -8,6 +8,9 @@ p {
         font-family: 'Space Mono';
         font-size: 24px;
     }
+    #line {
+        display: none;
+    }
     .text-box {
         display: flex;
         flex-direction: column;
@@ -34,5 +37,15 @@ p {
         justify-content: center;
         gap: 2rem;
         margin-top: 64px;
+        position: relative;
+    }
+    #line {
+        position:absolute;
+        z-index: -2;
+        width: 850px;
+        height: 15px;
+        left: -53px;
+        top: 40px;
+        filter: invert(18%) sepia(79%) saturate(19%) hue-rotate(180deg) brightness(100%) contrast(162%);
     }
 }
