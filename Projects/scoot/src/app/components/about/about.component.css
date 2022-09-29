@@ -55,7 +55,7 @@ h3 {
         align-items: center;
         position: relative;
         gap: 4rem;
-        margin-top: 72px;
+        margin-top: 136px;
         margin-bottom: 120px;
         overflow-x: hidden;
     }
@@ -285,5 +285,9 @@ h3 {
         margin-top: 64px;
         font-family: 'Space Mono';
         font-size: 24px;
+    }
+    div {
+        display: flex;
+        justify-content: center;
     }
 }
