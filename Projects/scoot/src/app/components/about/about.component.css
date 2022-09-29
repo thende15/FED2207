@@ -156,6 +156,13 @@ h3 {
         display: flex;
         justify-content: center;
     }
+    #faq {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 72px;
+    }
 }
 /* Beeg */
 @media (min-width: 421px) {
