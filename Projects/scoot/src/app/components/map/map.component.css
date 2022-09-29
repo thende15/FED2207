@@ -32,25 +32,74 @@ h3 {
         gap: 16px;
         margin-top: 40px;
     }
+    .pins {
+        display: none;
+    }
 }
 @media (min-width: 421px) {
     #mobile-map {
         display: none;
     }
-    div {
-        width: 311px;
-        height: 72px;
-        background: rgba(252, 183, 43, 0.15);
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    #desk-map {
+        z-index: -1;
+        width: 100vw;
+        height: 543px;
+        object-fit: contain;
     }
     section {
         display: flex;
         justify-content: center;
         margin-top: 72px;
+        position: relative;
+    }
+    article {
+        position: relative;
     }
     .cities {
         display: none;
+    }
+    .pins {
+        width: 155px;
+        height: 50px;
+        background: #FCB72B;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pins::after {
+        content: '';
+        position: absolute;
+        top: 85%;
+        left: 0;
+        right: 0;
+        margin: 0 auto; 
+        width: 0;
+        height: 0;
+        border-top: solid 15px #FCB72B;
+        border-right: solid 15px transparent;
+        border-left: solid 15px transparent;
+    }
+    #us {
+        position: absolute;
+        left: 190px;
+        top: 102px;
+    }
+    #uk {
+        position: absolute;
+        left: 437px;
+        top: 45px;
+    }
+    #india {
+        position: absolute;
+        left: 822px;
+        top: 280px;
+    }
+    #japan {
+        position: absolute;
+        left: 895px;
+        top: 110px;
+    }
+    h3 {
+        font-size: 20px;
     }
 }
