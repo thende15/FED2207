@@ -3,6 +3,7 @@ p {
     color: #939CAA;
     text-align: center;
     font-size: 15px;
+    z-index: 5;
 }
 h3 {
     font-family: 'Space Mono';
@@ -11,6 +12,12 @@ h3 {
 }
 @media (max-width: 420px) {
     #desk-banner {
+        display: none;
+    }
+    #circles {
+        display: none;
+    }
+    .line {
         display: none;
     }
     #filler {
@@ -29,6 +36,9 @@ h3 {
     }
     .banner {
         width: 311px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     #mobile-banner {
         position:absolute;
@@ -176,29 +186,65 @@ h3 {
     #mobile-banner {
         display: none;
     }
+    #circles {
+        display: block;
+        position: relative;
+        top: 5rem;
+    }
     header {
         position: relative;
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        /* margin-top: 64px; */
         height: 650px;
         overflow: hidden;
+    } 
+    .banner {
+        width: 500px;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 160px;
+        gap: 2rem;
     }
     #desk-banner {
         position:absolute;
-        z-index: -1;
+        z-index: -3;
     }
     #circles {
         position: relative;
         left: 30px;
     }
+    .line {
+        position: absolute; 
+        z-index: -2;
+        width: 130px;
+        height: 15px;
+        bottom: 325px;
+        object-fit: cover;
+        object-position: 0 100%;
+    }
+    /* .container {
+        width: 500px;
+        height: 138px;
+        position: absolute;
+        overflow: hidden;
+        left: 385px;
+        bottom: 202px;
+        z-index: 0;
+    } */
     h2 {
         z-index: 3;
         font-family: 'Space Mono';
         color: #ffffff;
         font-size: 40px;
-        padding-left: 3rem;
+        padding-right: 3rem;
+        position: relative;
+        right: 4rem;
+    }
+    .banner-text {
+        text-align: left;
     }
     .section-title {
         color: #495567;
@@ -263,13 +309,15 @@ h3 {
         overflow-x: hidden;
     }
     #top-svg {
-        width: 500px;
+        width: 250px;
         height: 138px;
+        object-fit: cover;
+        object-position: 100% 0;
         position: absolute;
         overflow: hidden;
-        left: -360px;
-        bottom: -115px;
-        z-index: 10;
+        left: 685px;
+        bottom: 202px;
+        z-index: -2;
     }
     #svg {
         width: 735px;
