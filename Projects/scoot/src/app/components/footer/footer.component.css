@@ -12,6 +12,19 @@ li {
     color: #939CAA;
     list-style: none;
 }
+a {
+    text-decoration: none;
+}
+li:hover {
+    color: #FCB72B;
+}
+.socials:hover {
+    cursor: pointer;
+    filter: brightness(1000);
+}
+#stores :hover {
+    cursor: pointer;
+}
 @media (max-width: 420px) {
     #apple {
         width: 113.57px;

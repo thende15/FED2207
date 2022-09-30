@@ -16,7 +16,9 @@ button:hover {
     color: #FCB72B;
     border: 3px #FCB72B solid;
 }
-
+a:hover {
+    color: #FCB72B;
+}
 @media only screen and (max-width: 767px) {
     #desk-head {
         display: none;

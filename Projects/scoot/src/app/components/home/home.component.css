@@ -12,7 +12,7 @@ h3 {
 }
 button:hover {
     cursor: pointer;
-    background-color: #ffffff;
+    background: none;
     color: #FCB72B;
     border: 3px #FCB72B solid;
 }
