@@ -109,6 +109,7 @@ h4 {
       
       .accordion-item-header:hover {
         cursor: pointer;
+        background-color: #FFF4DF;
       }
       section {
         display: flex;
