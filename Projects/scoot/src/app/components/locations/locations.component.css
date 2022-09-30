@@ -1,3 +1,9 @@
+button:hover {
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #FCB72B;
+    border: 3px #FCB72B solid;
+}
 @media (max-width: 420px) {
     p {
         font-family: 'Lexend Deca';

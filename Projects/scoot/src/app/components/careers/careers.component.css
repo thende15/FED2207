@@ -9,6 +9,12 @@ h3 {
     color: #495567;
     text-align: center;
 }
+button:hover {
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #FCB72B;
+    border: 3px #FCB72B solid;
+}
 @media (max-width: 420px) {
     #desk-banner {
         display: none;
