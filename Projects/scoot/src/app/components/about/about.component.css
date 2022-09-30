@@ -290,4 +290,7 @@ h3 {
         display: flex;
         justify-content: center;
     }
+    #faq {
+        margin-top: 80px;
+    }
 }
